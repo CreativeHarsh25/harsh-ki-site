@@ -1,0 +1,244 @@
+/* this is highly edited so go through it carefully.
+Read the comments carefully then you will get everything. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  /* newly added */
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+  /* newly added */
+@font-face {
+  font-family: Opificio;
+  src: url("Opificio_Bold_rounded.ttf");
+}
+header {
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+.content{
+  position: fixed; 
+  width: 100%; 
+  /* padding: 10px;  */
+  bottom: 0px;
+  top: -20px; 
+  right: 2px;
+  display: 1920px 1080px;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15));
+ 
+} 
+/* body {
+  
+  /* background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  /* animation: body 10s linear infinite;
+  animation-timing-function: ease-in-out;  */ 
+  /* newly added from upto --*/
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100% ; 
+   min-height: 100%; 
+}
+nav{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+   line-height: 50px;  
+}
+nav h1{
+  padding: 1em 1em;
+  color: white;
+  font-size: 2em;
+  font-family: "Opificio", sans-serif;
+}
+ul li a{
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Opificio", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  transition: color 0.3s ease-in-out;
+}
+ul li a:hover{
+color: #5ccc01 ;
+
+} 
+
+
+.disc{
+   
+  display: none;
+}
+
+ ul li:hover .disc {
+
+  display: block;
+  
+  background: rgba(0, 0, 0, 0.6);
+  width: 200px;
+  text-align: right; 
+  /* line-height: 50px; */
+  padding: 40px; 
+  /* align-items: center; */
+  border-radius: 20px;
+ 
+
+}
+.disc ul li a :hover{
+
+  background-color:rgb(43, 126, 43);
+}
+ 
+
+
+ ul{
+  margin: 2em;
+  width: 35%; 
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+} 
+/*-- here */
+main {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+ 
+
+
+ 
+
+section h3 {
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+section h1 {
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+  
+}
+
+section p {
+  font-size: 25px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+
+section a {
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+section .btnone {
+  /*background: #00b894;*/
+  background: #fff;
+  color: #000;
+  border-radius: 20px; 
+}
+
+.btnone:hover {
+  background: #00b894;
+  color: white;
+}
+
+section .btntwo {
+  background:#00b894;
+  color: white;
+  border-radius: 20px;
+}
+
+.btntwo:hover {
+  background: #fff;
+  color: #000;
+}
+
+.change_content:after {
+  content: "";
+  animation: changetext 10s infinite linear;
+  color: #00b894;
+}
+/* rebuilded it !
+added something special
+I think you may notice
+      upto --*/
+/* @keyframes body {
+  0% {
+    background-image: url("india-best-places-to-visit-rajasthan.jpg");
+  }
+
+  20% {
+    background-image: url("india-best-places-to-visit-darjeeling.jpg");
+  }
+
+  40% {
+    background-image: url("india-best-places-to-visit-varanasi.jpg");
+  }
+
+  60% {
+    background-image: url("india-best-places-to-visit-kerala.jpg");
+  }
+
+  80% {
+    background-image: url("india-best-places-to-visit-amritsar.jpg");
+  }
+
+  100% {
+    background-image: url("india-best-places-to-visit-mumbai.jpg");
+  } */
+
+@keyframes changetext {
+  0% {
+    content: "harsh";
+  }
+
+  20% {
+    content: "yash";
+  }
+
+  40% {
+    content: "Ashirvad";
+  }
+
+  60% {
+    content: "vansh";
+  }
+
+  80% {
+    content: "Ronit";
+  }
+
+  100% {
+    content: "pagal vicky";
+  }
+}
+/*-- here*/
